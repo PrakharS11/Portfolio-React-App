@@ -4,7 +4,7 @@ import { CheckCircleTwoTone, StarTwoTone } from '@ant-design/icons';
 
 function TodoListCard(props){
   const [done, setDone] = useState(props.done);
-  const [text, setText] = useState(props.text);
+  const [text, ] = useState(props.text);
   const [starred, setStarred] = useState(props.starred);
   
 
