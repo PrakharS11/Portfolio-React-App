@@ -1,10 +1,10 @@
 import React from 'react';
 import guyCoding from "../../Resources/Images/guyCoding.png";
 import profileImage from "../../Resources/Images/pic1.jpeg";
-import ReactPlayer from 'react-player'
+//import ReactPlayer from 'react-player'
 import { WhatsAppOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
-import { LinkedinFilled, GithubFilled, FacebookFilled } from "@ant-design/icons";
+//import { LinkedinFilled, GithubFilled, FacebookFilled } from "@ant-design/icons";
 import "./styles/Intro.css";
 
 function Intro() {

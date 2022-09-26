@@ -2,7 +2,8 @@ import React from "react";
 import profileImage from "../../Resources/Images/pic1.jpeg";
 import "./styles/Hamburger.css";
 import { Link } from "react-router-dom";
-import { MenuFoldOutlined, MenuOutlined, CloseCircleOutlined, CloseOutlined } from "@ant-design/icons";
+import { CloseCircleOutlined } from "@ant-design/icons";
+//import { MenuFoldOutlined, MenuOutlined, CloseCircleOutlined, CloseOutlined } from "@ant-design/icons";
 
 function Hamburger(props) {
 
