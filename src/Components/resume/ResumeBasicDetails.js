@@ -6,7 +6,8 @@ import linkedInIcon from "../../Resources/Images/linkedInIcon.svg";
 import githubIcon from "../../Resources/Images/githubIcon.svg";
 import { Rate } from 'antd';
 import {CopyTwoTone} from '@ant-design/icons'
-import 'antd/dist/antd.css';
+//import 'antd/dist/antd.css';
+import 'antd/dist/antd.min.css';
 import "./styles/ResumeBasicDetails.css";
 
 
