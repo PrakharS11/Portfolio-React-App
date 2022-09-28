@@ -17,7 +17,7 @@ function About() {
         return (
             <section className="portfolio-about-body-wrapper">
                 {getAboutContent()}
-                 <img src={aboutPic} />
+                 <img src={aboutPic} alt="description" />
             </section>
         )
     }

@@ -34,7 +34,7 @@ function Clock() {
         return () => {
             clearInterval(intervalId)
         }
-    }, [])
+    }, [intervalId]);
 
     const updateTime = () => {
             setTime(new Date().toLocaleTimeString())

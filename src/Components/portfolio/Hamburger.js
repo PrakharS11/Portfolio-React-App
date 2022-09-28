@@ -11,7 +11,7 @@ function Hamburger(props) {
         return (
             <section className="portfolio-hamburger-header-wrapper">
                 <section className='portfolio-header-name-wrapper'>
-                    <img src={profileImage} />
+                    <img src={profileImage} alt="description" />
                     <h1>Prakhar Srivastava</h1>
                 </section>
                 <CloseCircleOutlined onClick={()=>props.setIsHamburgerOpen(false)}/>

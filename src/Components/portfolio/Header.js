@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import profileImage from "../../Resources/Images/pic1.jpeg";
 import Hamburger from "./Hamburger";
 import "./styles/Header.css";
-import { MenuFoldOutlined, MenuOutlined } from "@ant-design/icons";
+import { MenuFoldOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
 
 
@@ -14,7 +14,7 @@ function Header(props) {
         { window.innerWidth<661 ? <MenuFoldOutlined style={{fontSize:"30px"}} onClick={()=>setIsHamburgerOpen(true)} /> : ""}
         <Hamburger isHamburgerOpen={isHamburgerOpen} setIsHamburgerOpen={setIsHamburgerOpen}/>
         <section className='portfolio-header-name-wrapper'>
-            <img src={profileImage}/>
+            <img src={profileImage} alt="description"/>
             <h1>Prakhar Srivastava</h1>
         </section>
 

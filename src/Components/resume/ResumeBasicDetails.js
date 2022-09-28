@@ -15,7 +15,7 @@ function ResumeBasicDetails() {
     const getIdentity = () => {
         return (
             <section className="resume-basic-details-identity-wrapper">
-                <img src={profilePic} alt="my photo" />
+                <img src={profilePic} alt="discription" />
                 <h2>John Doe</h2>
             </section>
         )

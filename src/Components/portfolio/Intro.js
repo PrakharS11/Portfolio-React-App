@@ -13,10 +13,10 @@ function Intro() {
         return (
             <section className="portfolio-intro-card-wrapper">
                 <section className="portfolio-intro-card-bg-image">
-                    <img src={guyCoding} />
+                    <img src={guyCoding} alt="description" />
                 </section>
                 <section className="portfolio-intro-card-content-wrapper">
-                    <img src={profileImage}/>
+                    <img src={profileImage} alt="description"/>
                     <h2>Prakhar Srivastava</h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     <div className="resume-CTA"><Link className="resume-link" to="resume">Resume</Link></div>

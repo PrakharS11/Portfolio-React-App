@@ -4,8 +4,8 @@ import "slick-carousel/slick/slick.css";
 import "./styles/Achivement.css";
 import "slick-carousel/slick/slick-theme.css";
 import c1 from "../../Resources/Images/c1.jpg"
-import c2 from "../../Resources/Images/c1.jpg"
-import c3 from "../../Resources/Images/c1.jpg"
+// import c2 from "../../Resources/Images/c1.jpg"
+// import c3 from "../../Resources/Images/c1.jpg"
 
 // import "slick-carousel/slick/slick-theme.css";
 
@@ -44,7 +44,7 @@ function Achivement() {
     const getCarousalCard = (achiveImg,title,description) => {
         return (
             <section className="portfolio-achivement-card-wrapper">
-                <img src={achiveImg}/>
+                <img src={achiveImg} alt="description"/>
                 <h3>{title}</h3>
                 <p>{description}</p>
             </section>

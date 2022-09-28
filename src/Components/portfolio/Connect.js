@@ -17,7 +17,7 @@ function Connect() {
         if (window.innerWidth > 660) {
             return (
                 <section>
-                    <img src={WebConnect} useMap="#image-map" />
+                    <img src={WebConnect} useMap="#image-map" alt="description" />
 
                     <map name="image-map">
                         <area
@@ -130,7 +130,7 @@ function Connect() {
         }
         return (
             <section>
-                <img src={MobileConnect} useMap="#image-map" />
+                <img src={MobileConnect} useMap="#image-map" alt="description" />
                 <map name="image-map">
                     <area target="_blank" alt="" title="" href="https://www.facebook.com/" coords="25,22,14" shape="circle"></area>
                     <area target="_blank" alt="" title="" href="https://mail.google.com/mail/u/0/#inbox" coords="72,18,100,40" shape="rect"></area>

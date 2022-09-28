@@ -14,8 +14,17 @@ function DiceCurrent(props) {
     const [currentPlayer, setCurrentPlayer] = useState(false);
 
     useEffect(() => {
+        const updateCurrentScore = () => {
+            if (currentRoll === 1) {
+                setCurrentScore(0);
+                setCurrentPlayer(!currentPlayer);
+            } else {
+                setCurrentScore(currentScore + currentRoll);
+            }
+        };
         updateCurrentScore();
-    }, [currentRoll]);
+        
+    }, [currentRoll,currentPlayer,currentScore]);
 
 
     const getCurrentRoll = () => {
@@ -34,14 +43,14 @@ function DiceCurrent(props) {
         }
     }
 
-    const updateCurrentScore = () => {
-        if (currentRoll === 1) {
-            setCurrentScore(0);
-            setCurrentPlayer(!currentPlayer);
-        } else {
-            setCurrentScore(currentScore + currentRoll);
-        }
-    }
+    // const updateCurrentScore = () => {
+    //     if (currentRoll === 1) {
+    //         setCurrentScore(0);
+    //         setCurrentPlayer(!currentPlayer);
+    //     } else {
+    //         setCurrentScore(currentScore + currentRoll);
+    //     }
+    // }
 
     //0-1 * 10 = 0-10 % 6 => (0-5) +1 = 1-6
     const updateCurrentRoll = () => {
