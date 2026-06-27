@@ -18,7 +18,9 @@ function Intro() {
                 <section className="portfolio-intro-card-content-wrapper">
                     <img src={profileImage} alt="description"/>
                     <h2>Prakhar Srivastava</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p>I am a Data Engineering and Governance Analyst with a strong interest in data quality, SQL, ETL processes, and automation.
+                        I have hands-on experience in validating data flows, analyzing requirements, creating test scenarios, and working with business and technical teams.
+                        I am currently strengthening my data engineering skills through SQL, Python, ETL pipelines, and cloud/data platform concepts.</p>
                     <div className="resume-CTA"><Link className="resume-link" to="resume">Resume</Link></div>
                 </section>
             </section>
