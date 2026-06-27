@@ -13,15 +13,12 @@ function Projects() {
                     <Clock />
                     <section className='protfolio-projects-clock-description-wrapper'>
                         <h2>Digital Clock</h2>
-                        <p>
-responsive digital clock application developed using React and JavaScript. 
-                    It displays the current time in real time and updates automatically every second, 
-                    providing a clean and simple user interface.
-</p>
+                        <p>A responsive digital clock application developed using React and JavaScript. 
+                           It displays the current time in real time and updates automatically every second, providing a clean and simple user interface.</p>
                     <ul>
-                        <li>mplemented real-time clock updates using JavaScript Date object.</li>
+                        <li>Implemented real-time clock updates using JavaScript Date object.</li>
                         <li>Used React component structure for better code reusability.</li>
-                        <li>DUsed React component structure for better code reusability.</li>
+                        <li>Designed a clean and responsive interface using CSS.</li>
                     </ul>
                     </section>
                 </section>
