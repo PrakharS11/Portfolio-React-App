@@ -13,11 +13,15 @@ function Projects() {
                     <Clock />
                     <section className='protfolio-projects-clock-description-wrapper'>
                         <h2>Digital Clock</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p>
+responsive digital clock application developed using React and JavaScript. 
+                    It displays the current time in real time and updates automatically every second, 
+                    providing a clean and simple user interface.
+</p>
                     <ul>
-                        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-                        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-                        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                        <li>mplemented real-time clock updates using JavaScript Date object.</li>
+                        <li>Used React component structure for better code reusability.</li>
+                        <li>DUsed React component structure for better code reusability.</li>
                     </ul>
                     </section>
                 </section>
