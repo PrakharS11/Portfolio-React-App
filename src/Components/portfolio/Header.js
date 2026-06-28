@@ -1,0 +1,32 @@
+import React, {useState} from 'react';
+import profileImage from "../../Resources/Images/pic1.jpeg";
+import Hamburger from "./Hamburger";
+import "./styles/Header.css";
+import { MenuFoldOutlined } from "@ant-design/icons";
+import { Link } from "react-router-dom";
+
+
+function Header(props) {
+  const [isHamburgerOpen,setIsHamburgerOpen] = useState(false);
+ 
+  return (
+    <section className='portfolio-header-wrapper'>
+        <MenuFoldOutlined className='portfolio-header-hamburger-icon' style={{fontSize:"30px"}} onClick={()=>setIsHamburgerOpen(true)} />
+        <Hamburger isHamburgerOpen={isHamburgerOpen} setIsHamburgerOpen={setIsHamburgerOpen}/>
+        <section className='portfolio-header-name-wrapper'>
+            <img src={profileImage} alt="Prakhar Srivastava"/>
+            <h1>Prakhar Srivastava</h1>
+        </section>
+
+        <section className='portfolio-header-nav-wrapper'>
+            <a href="#protfolio-projects-wrapper">Projects</a>
+            <a href="#portfolio-connect-with-me">Contact</a>
+            <a href="#portfolio-about-wrapper">About</a>
+            <a href="#portfolio-achivement-wrapper">Achievement</a>
+            <Link to="resume">Resume</Link>
+        </section>
+    </section>
+  )
+}
+
+export default Header;
