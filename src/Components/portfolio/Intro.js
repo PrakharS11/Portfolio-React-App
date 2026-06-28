@@ -33,11 +33,11 @@ function Intro() {
 
   return (
   <div className="portfolio-intro-wrapper">
-        <h1>Introduction</h1>
+       /* <h1>Introduction</h1>
         {getIntroBody()}
-       // <div className="connect-whatsapp" onClick={()=>{window.open("https://wa.me/7004813287?text=Hello Prakhar, I want to talk to you regarding an opening in my company.")}}>
-       //     <WhatsAppOutlined style={{color:"#fff", fontSize:"30px"}}/>
-       // </div>
+        <div className="connect-whatsapp" onClick={()=>{window.open("https://wa.me/7004813287?text=Hello Prakhar, I want to talk to you regarding an opening in my company.")}}>
+            <WhatsAppOutlined style={{color:"#fff", fontSize:"30px"}}/>
+        </div>*/
   </div>
   )
 }
