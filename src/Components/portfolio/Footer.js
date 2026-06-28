@@ -18,11 +18,11 @@ function Footer() {
             <section className="portfolio-footer-content-wrapper">
                 <section className="portfolio-footer-message-wrapper">
                     <h1>Let's Talk</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<a href="tel:+91-7004813287">Contact me</a></p>
+                    <p>I'm always open to new opportunities, collaborations, or just a good conversation about tech and data. Feel free to reach out — I'd love to connect! <a href="mailto:prakharsahai21@gmail.com">Contact me</a></p>
                 </section>
                     <section className="portfolio-intro-card-social-wrapper">
-                        <LinkedinFilled style={{fontSize:"30px", color:"#F9F3F3"}} onClick={() => window.open("https://github.com/", "_blank")} />
-                        <GithubFilled style={{fontSize:"30px", color:"#F9F3F3"}}/>
+                        <LinkedinFilled style={{fontSize:"30px", color:"#F9F3F3"}} onClick={() => window.open("https://www.linkedin.com/in/prakhar-srivastava-47484a153/", "_blank")} />
+                        <GithubFilled style={{fontSize:"30px", color:"#F9F3F3"}} onClick={() => window.open("https://github.com/PrakharS11", "_blank")}/>
                         <FacebookFilled style={{fontSize:"30px", color:"#F9F3F3"}}/>
                     </section>
             </section>

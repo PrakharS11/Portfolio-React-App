@@ -53,14 +53,14 @@ function Achivement() {
 
     return (
   <div id="portfolio-achivement-wrapper">
-      <h1>Certifications & Achivements</h1>
+      <h1>Certifications & Achievements</h1>
       <Slider {...settings}>
-            {getCarousalCard(c1,"some random tittle","Descriptiion of this achivement on what you did")}
-            {getCarousalCard(c1,"some random tittle","Descriptiion of this achivement on what you did")}
-            {getCarousalCard(c1,"some random tittle","Descriptiion of this achivement on what you did")}
-            {getCarousalCard(c1,"some random tittle","Descriptiion of this achivement on what you did")}
-            {getCarousalCard(c1,"some random tittle","Descriptiion of this achivement on what you did")}
-            {getCarousalCard(c1,"some random tittle","Descriptiion of this achivement on what you did")}
+            {getCarousalCard(c1,"B.Tech — CSE","Lovely Professional University, 2019–2023. Specialized in Computer Science & Engineering.")}
+            {getCarousalCard(c1,"Data Engineer","Accenture — 3 years as Data Engineering, Management & Governance Analyst.")}
+            {getCarousalCard(c1,"Portfolio Project","Built and deployed a full React.js portfolio with 4 embedded mini-projects on Netlify.")}
+            {getCarousalCard(c1,"Digital Clock","Real-time clock app built with React hooks, useRef, and setInterval.")}
+            {getCarousalCard(c1,"Scarne's Dice","Two-player turn-based dice game built with React state management.")}
+            {getCarousalCard(c1,"Quote Generator","Live quote fetcher using Axios and a public REST API with glow mode.")}
       </Slider>
   </div>
   )

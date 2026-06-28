@@ -24,7 +24,7 @@ function Connect() {
                             target="_blank"
                             alt=""
                             title=""
-                            href="https://www.facebook.com/"
+                            href="https://github.com/PrakharS11"
                             coords="106,90,69"
                             shape="circle"
                         ></area>
@@ -40,7 +40,7 @@ function Connect() {
                             target="_blank"
                             alt=""
                             title=""
-                            href="https://github.com/login"
+                            href="https://github.com/PrakharS11"
                             coords="92,407,56"
                             shape="circle"
                         ></area>
@@ -48,7 +48,7 @@ function Connect() {
                             target="_blank"
                             alt=""
                             title=""
-                            href="https://mail.google.com/mail/u/0/#inbox"
+                            href="mailto:prakharsahai21@gmail.com"
                             coords="305,81,399,157"
                             shape="rect"
                         ></area>
@@ -56,7 +56,7 @@ function Connect() {
                             target="_blank"
                             alt=""
                             title=""
-                            href="https://www.linkedin.com/feed/"
+                            href="https://www.linkedin.com/in/prakhar-srivastava-47484a153/"
                             coords="277,329,366,416"
                             shape="rect"
                         ></area>
@@ -80,7 +80,7 @@ function Connect() {
                             target="_blank"
                             alt=""
                             title=""
-                            href="https://github.com/login"
+                            href="https://github.com/PrakharS11"
                             coords="677,101,79"
                             shape="circle"
                         ></area>
@@ -88,7 +88,7 @@ function Connect() {
                             target="_blank"
                             alt=""
                             title=""
-                            href="https://mail.google.com/mail/u/0/#inbox"
+                            href="mailto:prakharsahai21@gmail.com"
                             coords="652,332,804,449"
                             shape="rect"
                         ></area>
@@ -96,7 +96,7 @@ function Connect() {
                             target="_blank"
                             alt=""
                             title=""
-                            href="https://www.facebook.com/"
+                            href="https://github.com/PrakharS11"
                             coords="880,224,102"
                             shape="circle"
                         ></area>
@@ -104,7 +104,7 @@ function Connect() {
                             target="_blank"
                             alt=""
                             title=""
-                            href="https://www.linkedin.com/feed/"
+                            href="https://www.linkedin.com/in/prakhar-srivastava-47484a153/"
                             coords="1030,39,1177,180"
                             shape="rect"
                         ></area>
@@ -132,11 +132,11 @@ function Connect() {
             <section>
                 <img src={MobileConnect} useMap="#image-map" alt="description" />
                 <map name="image-map">
-                    <area target="_blank" alt="" title="" href="https://www.facebook.com/" coords="25,22,14" shape="circle"></area>
-                    <area target="_blank" alt="" title="" href="https://mail.google.com/mail/u/0/#inbox" coords="72,18,100,40" shape="rect"></area>
+                    <area target="_blank" alt="" title="" href="https://github.com/PrakharS11" coords="25,22,14" shape="circle"></area>
+                    <area target="_blank" alt="" title="" href="mailto:prakharsahai21@gmail.com" coords="72,18,100,40" shape="rect"></area>
                     <area target="_blank" alt="" title="" href="https://web.whatsapp.com/" coords="48,56,18" shape="circle"></area>
-                    <area target="_blank" alt="" title="" href="https://github.com/login" coords="21,98,14" shape="circle"></area>
-                    <area target="_blank" alt="" title="" href="https://www.linkedin.com/feed/" coords="69,82,90,101" shape="rect"></area>
+                    <area target="_blank" alt="" title="" href="https://github.com/PrakharS11" coords="21,98,14" shape="circle"></area>
+                    <area target="_blank" alt="" title="" href="https://www.linkedin.com/in/prakhar-srivastava-47484a153/" coords="69,82,90,101" shape="rect"></area>
                     <area target="_self" alt="" title="" href="" coords="241,78,276,109" shape="rect"></area>
                 </map>
             </section>
