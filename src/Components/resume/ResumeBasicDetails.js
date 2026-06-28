@@ -1,7 +1,6 @@
 import React from 'react';
 import profilePic from "../../Resources/Images/dic6.PNG";
 import emailIcon from "../../Resources/Images/emailIcon.svg";
-import phoneIcon from "../../Resources/Images/phoneIcon.svg";
 import linkedInIcon from "../../Resources/Images/linkedInIcon.svg";
 import githubIcon from "../../Resources/Images/githubIcon.svg";
 import { Rate } from 'antd';
