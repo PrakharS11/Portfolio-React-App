@@ -12,9 +12,10 @@
 }
 
 .portfolio-intro-card-wrapper {
-    width: 40vw;
+    width: 50vw;
     overflow: hidden;
     margin-right: 5vw;
+    margin-left: 5vw;
     border-radius: 5px;
     border: 1px solid #aaa;
     margin-top: 3vw;
