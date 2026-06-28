@@ -52,7 +52,11 @@
 }
 
 .portfolio-intro-wrapper, #portfolio-about-wrapper , #portfolio-achivement-wrapper , #protfolio-projects-wrapper , #portfolio-connect-with-me  {
-    padding : 0 4vw;
+    padding: 0 4vw;
+}
+
+.portfolio-intro-wrapper {
+    padding-top: 80px;
 }
 
 .portfolio-intro-card-content-wrapper > h2 {
