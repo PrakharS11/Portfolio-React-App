@@ -12,16 +12,12 @@ function ResumeContent() {
         </section>
         <section className="resume-content-user-experience-bullet">
           <ul>
-            {
-              work.map((list, index) => <li key={index}>{list}</li>)
-            }
+            {work.map((list, index) => <li key={index}>{list}</li>)}
           </ul>
         </section>
       </section>
     )
   }
-
-  //Assignment- Digital clock, Todo app, Random quote generator, scarne's dice => 
 
   const getExperience = () => {
     return (
@@ -66,7 +62,7 @@ function ResumeContent() {
     return (
       <section className="resume-content-interest-wrapper">
         <section><h3>Interests</h3></section>
-        <h4>Table Tennis, Chess, Reading books, Reading Technology blog</h4>
+        <h4>Traveling, Hiking, Exploring Modern Technologies, Reading Tech Blogs</h4>
       </section>
     )
   }
@@ -92,9 +88,7 @@ function ResumeContent() {
         </section>
         <section className="resume-content-user-project-work-wrapper">
           <ul>
-            {
-              work.map((list, index) => <li key={index}>{list}</li>)
-            }
+            {work.map((list, index) => <li key={index}>{list}</li>)}
           </ul>
         </section>
       </section>
@@ -105,22 +99,22 @@ function ResumeContent() {
     return (
       <section className="resume-content-projects-wrapper">
         <section><h3>Projects</h3></section>
-          {getUserProjects("Portfolio Website", "2022", [
-            "Built a React.js portfolio with React Router, Ant Design, and Firebase Hosting.",
-            "Embedded four interactive mini-apps: Digital Clock, Todo App, Dice Game, and Quote Generator.",
-          ])}
-          {getUserProjects("Todo App", "2022", [
-            "Task management app with add/remove functionality and dark mode toggle.",
-            "Built with React hooks (useState, useEffect) — no external state library.",
-          ])}
-          {getUserProjects("Scarne's Dice Game", "2022", [
-            "Two-player turn-based dice game implementing Scarne's Dice rules.",
-            "Manages per-player score state and turn logic in React.",
-          ])}
-          {getUserProjects("Random Quote Generator", "2022", [
-            "Fetches live quotes from the Quotable.io REST API using Axios.",
-            "Includes a glow/dark mode toggle and on-demand quote refresh.",
-          ])}
+        {getUserProjects("Portfolio Website", "2022", [
+          "Built a React.js portfolio with React Router, Ant Design, and Firebase Hosting.",
+          "Embedded four interactive mini-apps: Digital Clock, Todo App, Dice Game, and Quote Generator.",
+        ])}
+        {getUserProjects("Todo App", "2022", [
+          "Task management app with add/remove functionality and dark mode toggle.",
+          "Built with React hooks (useState, useEffect) — no external state library.",
+        ])}
+        {getUserProjects("Scarne's Dice Game", "2022", [
+          "Two-player turn-based dice game implementing Scarne's Dice rules.",
+          "Manages per-player score state and turn logic in React.",
+        ])}
+        {getUserProjects("Random Quote Generator", "2022", [
+          "Fetches live quotes from the Quotable.io REST API using Axios.",
+          "Includes a glow/dark mode toggle and on-demand quote refresh.",
+        ])}
       </section>
     )
   }

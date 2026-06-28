@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 function Header(props) {
   const [isHamburgerOpen,setIsHamburgerOpen] = useState(false);
- 
+
   return (
     <section className='portfolio-header-wrapper'>
         <MenuFoldOutlined className='portfolio-header-hamburger-icon' style={{fontSize:"30px"}} onClick={()=>setIsHamburgerOpen(true)} />

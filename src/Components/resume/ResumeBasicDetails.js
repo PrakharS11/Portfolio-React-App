@@ -6,7 +6,6 @@ import linkedInIcon from "../../Resources/Images/linkedInIcon.svg";
 import githubIcon from "../../Resources/Images/githubIcon.svg";
 import { Rate } from 'antd';
 import {CopyTwoTone} from '@ant-design/icons'
-//import 'antd/dist/antd.css';
 import 'antd/dist/antd.min.css';
 import "./styles/ResumeBasicDetails.css";
 
@@ -15,7 +14,7 @@ function ResumeBasicDetails() {
     const getIdentity = () => {
         return (
             <section className="resume-basic-details-identity-wrapper">
-                <img src={profilePic} alt="discription" />
+                <img src={profilePic} alt="Prakhar Srivastava" />
                 <h2>Prakhar Srivastava</h2>
             </section>
         )
@@ -39,10 +38,6 @@ function ResumeBasicDetails() {
                     <img src={emailIcon} alt="email" />
                     <p>prakharsahai21@gmail.com</p>
                     <CopyTwoTone onClick={() => {navigator.clipboard.writeText("prakharsahai21@gmail.com")}}/>
-                </section>
-                <section className="resume-basic-details-connect-wrapper">
-                    <img src={phoneIcon} alt="phone" />
-                    <p>+91-1234567890</p>
                 </section>
                 <section onClick={()=>{window.open("https://www.linkedin.com/in/prakhar-srivastava-47484a153/","_blank")}} className="resume-basic-details-connect-wrapper">
                     <img src={linkedInIcon} alt="linkedIn" />

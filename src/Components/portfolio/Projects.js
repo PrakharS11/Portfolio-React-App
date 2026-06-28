@@ -75,10 +75,9 @@ function Projects() {
             )
         }
 
-        
     const getAllProjects = () => {
         return (
-            <section  className='protfolio-projects-together-wrapper'>
+            <section className='protfolio-projects-together-wrapper'>
                 {getClock()}
                 {getTodoApp()}
                 {getDiceGame()}
@@ -87,7 +86,7 @@ function Projects() {
         )
     }
 
-  return ( 
+  return (
     <section id='protfolio-projects-wrapper'>
         <h1>Projects</h1>
         {getAllProjects()}
